@@ -1,0 +1,139 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(58, 55, 55, 0.941);
+  width: 1280px;
+  height: 609px;
+  display: flex;
+  position: relative;
+}
+.info {
+  width: 250px;
+  height: 200px;
+  border: solid 1px;
+  border-radius: 2px;
+  border-color: #e2703a;
+  position: absolute;
+  right: 100px;
+  top: 31%;
+  padding: 5px;
+  display: none;
+}
+
+.display {
+  width: 600px;
+  height: 400px;
+  border-radius: 5px;
+}
+.ipForm {
+  background: #1b2430;
+  width: 450px;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plyerOne1,
+.plyerOne2,
+.plyerOne3 {
+  color: rgb(227, 9, 118);
+}
+.plyerOne,
+.plyerTwo,
+.plyerThree {
+  color: rgb(12, 202, 202);
+}
+p,
+h2 {
+  text-align: center;
+  color: #e2703a;
+  padding-bottom: 8px;
+  text-align: left;
+}
+h3 {
+  text-align: center;
+  color: rgb(12, 202, 202);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+input {
+  padding: 15px;
+  width: 235px;
+  background: rgba(245, 245, 245, 0.902);
+  color: hsl(hue, saturation, lightness);
+}
+.ipNum {
+  padding: 15px;
+  width: 235px;
+  background: rgba(245, 245, 245, 0.902);
+  color: hsl(hue, saturation, lightness);
+  display: none;
+}
+::placeholder {
+  text-align: center;
+  opacity: 0.4;
+}
+
+.bton {
+  padding: 6px 20px;
+  font-weight: bold;
+  border: solid 2px;
+  border-color: aqua;
+  border-radius: 2px;
+  background: #e2703a;
+  color: aqua;
+}
+.bton1 {
+  padding: 6px 20px;
+  font-weight: bold;
+  border: solid 2px;
+  border-color: aqua;
+  border-radius: 2px;
+  background: #e2703a;
+  color: aqua;
+  display: none;
+}
+
+.error {
+  background: #1b2430;
+  border-radius: 4px;
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  border: solid 1px;
+  border-color: rgb(240, 146, 146);
+  display: none;
+}
+.errorH {
+  text-align: center;
+  color: rgb(227, 9, 118);
+}
+
+.ipNum2,
+.ipText2,
+.ipNum3,
+.ipText3 {
+  padding: 15px;
+  width: 235px;
+  background: rgba(245, 245, 245, 0.902);
+  color: hsl(hue, saturation, lightness);
+  display: none;
+}
+.bton22,
+.bton2,
+.bton33,
+.bton3 {
+  padding: 6px 20px;
+  font-weight: bold;
+  border: solid 2px;
+  border-color: aqua;
+  border-radius: 2px;
+  background: #e2703a;
+  color: aqua;
+  display: none;
+}
