@@ -29,8 +29,10 @@ let playerOne3 = document.querySelector(".plyerOne3");
 
 bton.addEventListener("click", function () {
   let x = ipText.value.split(" ").join("");
+  let p = x / x;
+  console.log(p);
 
-  if (x.length != 0) {
+  if (x.length != 0 && p != 1) {
     console.log(ipText.value);
     error.style.display = "none";
     info.style.display = "block";
@@ -61,8 +63,9 @@ bton1.addEventListener("click", function () {
 
 bton2.addEventListener("click", function () {
   let y = ipText2.value.split(" ").join("");
+  let i = y / y;
 
-  if (y.length != 0) {
+  if (y.length != 0 && i != 1) {
     console.log(ipText2.value);
     error.style.display = "none";
     ipNum2.style.display = "block";
@@ -79,7 +82,7 @@ bton2.addEventListener("click", function () {
 bton22.addEventListener("click", function () {
   if (ipNum.value == ipNum2.value) {
     playerOne1.innerHTML = "Lost";
-    playerOne1.style.display = "none";
+    playerOne1.style.display = "block";
     playerOne2.innerHTML = "Win";
     ipNum2.style.display = "none";
     ipText3.style.display = "block";
@@ -113,8 +116,9 @@ bton22.addEventListener("click", function () {
 
 bton3.addEventListener("click", function () {
   let z = ipText3.value.split(" ").join("");
+  let q = z / z;
 
-  if (z.length != 0) {
+  if (z.length != 0 && q != 1) {
     console.log(ipText2.value);
     error.style.display = "none";
     ipNum3.style.display = "block";
